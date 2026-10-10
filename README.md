@@ -3,7 +3,7 @@
 ## Group Information
 * **Group Name:** KBA
 * **Members:**
-  1. Khadija Nafeh (Group Leader / Repository Admin)
+  1. Khadija Nafeh
   2. Aiman Arif
   3. Bushra Rauf
 
