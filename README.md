@@ -1,14 +1,21 @@
 # CS216L Project 1: Advanced Task Manager Application
 
+## Group Information
+* **Group Name:** KBA
+* **Members:**
+  1. Khadija Nafeh (Group Leader / Repository Admin)
+  2. Aiman Arif
+  3. Bushra Rauf
+
 ## Project Title
-**Task Manager**
+**Colorized Command-Line Task Manager**
 
 ## Description
-A terminal-based colorized task management dashboard built using custom memory-managed data structures in Java. It allows dynamic task creation, priority sorting, quick linear searches, tracking, and sequential state rollbacks using an action history layers system.
+A terminal-based colorized task management dashboard built using custom memory-managed data structures in Java. It allows dynamic task creation, priority sorting, quick linear searches, tracking, and sequential state rollbacks using an action history layers system. The application is built entirely from scratch without using any built-in Java collection libraries (like ArrayList or Vector).
 
 ## Data Structures Used
-*   **Singly Linked List (`TaskList`):** Manages live operations on the main sequence of task elements.
-*   **Custom Memory Stack (`UndoStack`):** Tracks record changes to drive real-time "Undo Last Action" commands.
+* **Singly Linked List (`TaskList`):** Manages live operations on the main sequence of task elements.
+* **Custom Memory Stack (`UndoStack`):** Tracks record changes to drive real-time "Undo Last Action" commands using Last-In, First-Out (LIFO) logic.
 
 ## Feature Summary
 1. **Add Task:** Dynamically appends a new structural node to the tail of the linked list tracking matrix.
@@ -30,5 +37,4 @@ A terminal-based colorized task management dashboard built using custom memory-m
 | **Pop** | Custom Stack Layer | O(1) | O(1) | Drops top item references instantly. |
 
 ## GitHub Repository Link
-[Click here to view our TaskManager.java Source Code](https://github.com)
-
+[👉 Click here to view our TaskManager.java Source Code](https://github.com)
